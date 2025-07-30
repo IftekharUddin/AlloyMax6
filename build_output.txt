@@ -1,0 +1,158 @@
+Initialized native services in: /Users/iftekharuddin/.gradle/native
+Initialized jansi services in: /Users/iftekharuddin/.gradle/native
+Found daemon DaemonInfo{pid=94092, address=[2f6729ed-8fc2-4105-a975-15120625828e port:52830, addresses:[/127.0.0.1]], state=Idle, lastBusy=1753844830982, context=DefaultDaemonContext[uid=de157f34-576d-46b7-8d68-8a54d839e758,javaHome=/opt/homebrew/Cellar/openjdk@21/21.0.7/libexec/openjdk.jdk/Contents/Home,daemonRegistryDir=/Users/iftekharuddin/.gradle/daemon,pid=94092,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+Java home is different.
+Wanted: DefaultDaemonContext[uid=null,javaHome=/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home,daemonRegistryDir=/Users/iftekharuddin/.gradle/daemon,pid=60134,idleTimeout=null,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Actual: DefaultDaemonContext[uid=de157f34-576d-46b7-8d68-8a54d839e758,javaHome=/opt/homebrew/Cellar/openjdk@21/21.0.7/libexec/openjdk.jdk/Contents/Home,daemonRegistryDir=/Users/iftekharuddin/.gradle/daemon,pid=94092,idleTimeout=10800000,priority=NORMAL,daemonOpts=--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.base/java.lang=ALL-UNNAMED,--add-opens,java.base/java.lang.invoke=ALL-UNNAMED,--add-opens,java.base/java.util=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens,java.base/java.nio.charset=ALL-UNNAMED,--add-opens,java.base/java.net=ALL-UNNAMED,--add-opens,java.base/java.util.concurrent.atomic=ALL-UNNAMED,-XX:MaxMetaspaceSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xms256m,-Xmx512m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 41755). The daemon log file: /Users/iftekharuddin/.gradle/daemon/7.2/daemon-41755.out.log
+Starting 14th build in daemon [uptime: 19 mins 37.608 secs, performance: 99%, non-heap usage: 32% of 256 MiB]
+Using 10 worker leases.
+Now considering [/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/settings.gradle'.
+Projects loaded. Root project using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/build.gradle'.
+Included projects: [root project 'org.alloytools.alloy', project ':cnf', project ':org.alloytools.alloy.application', project ':org.alloytools.alloy.cli', project ':org.alloytools.alloy.core', project ':org.alloytools.alloy.dist', project ':org.alloytools.alloy.extra', project ':org.alloytools.alloy.lsp', project ':org.alloytools.alloy.wrappers', project ':org.alloytools.api', project ':org.alloytools.pardinus.core', project ':org.alloytools.pardinus.native']
+
+> Configure project :
+Evaluating root project 'org.alloytools.alloy' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/build.gradle'.
+
+> Configure project :cnf
+Evaluating project ':cnf' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/cnf/build.gradle'.
+
+> Configure project :org.alloytools.alloy.application
+Evaluating project ':org.alloytools.alloy.application' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.alloy.application/build.gradle'.
+
+> Configure project :org.alloytools.alloy.cli
+Evaluating project ':org.alloytools.alloy.cli' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.alloy.cli/build.gradle'.
+
+> Configure project :org.alloytools.alloy.core
+Evaluating project ':org.alloytools.alloy.core' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.alloy.core/build.gradle'.
+
+> Configure project :org.alloytools.alloy.dist
+Evaluating project ':org.alloytools.alloy.dist' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.alloy.dist/build.gradle'.
+
+> Configure project :org.alloytools.alloy.extra
+Evaluating project ':org.alloytools.alloy.extra' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.alloy.extra/build.gradle'.
+
+> Configure project :org.alloytools.alloy.lsp
+Evaluating project ':org.alloytools.alloy.lsp' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.alloy.lsp/build.gradle'.
+
+> Configure project :org.alloytools.alloy.wrappers
+Evaluating project ':org.alloytools.alloy.wrappers' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.alloy.wrappers/build.gradle'.
+
+> Configure project :org.alloytools.api
+Evaluating project ':org.alloytools.api' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.api/build.gradle'.
+
+> Configure project :org.alloytools.pardinus.core
+Evaluating project ':org.alloytools.pardinus.core' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.pardinus.core/build.gradle'.
+
+> Configure project :org.alloytools.pardinus.native
+Evaluating project ':org.alloytools.pardinus.native' using build file '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.pardinus.native/build.gradle'.
+All projects evaluated.
+Set :org.alloytools.alloy.core:compileClasspath configuration attribute org.gradle.libraryelements to jar
+Selected primary task ':org.alloytools.alloy.core:compileJava' from project :org.alloytools.alloy.core
+Set :org.alloytools.alloy.core:testCompileClasspath configuration attribute org.gradle.libraryelements to jar
+Set :org.alloytools.pardinus.core:compileClasspath configuration attribute org.gradle.libraryelements to jar
+Set :org.alloytools.pardinus.core:testCompileClasspath configuration attribute org.gradle.libraryelements to jar
+Set :org.alloytools.api:compileClasspath configuration attribute org.gradle.libraryelements to jar
+Set :org.alloytools.api:testCompileClasspath configuration attribute org.gradle.libraryelements to jar
+Set :org.alloytools.alloy.wrappers:compileClasspath configuration attribute org.gradle.libraryelements to jar
+Set :org.alloytools.alloy.wrappers:testCompileClasspath configuration attribute org.gradle.libraryelements to jar
+Tasks to be executed: [task ':org.alloytools.alloy.wrappers:compileJava', task ':org.alloytools.alloy.wrappers:processResources', task ':org.alloytools.alloy.wrappers:classes', task ':org.alloytools.alloy.wrappers:jar', task ':org.alloytools.api:compileJava', task ':org.alloytools.api:processResources', task ':org.alloytools.api:classes', task ':org.alloytools.api:jar', task ':org.alloytools.pardinus.core:compileJava', task ':org.alloytools.pardinus.core:processResources', task ':org.alloytools.pardinus.core:classes', task ':org.alloytools.pardinus.core:jar', task ':org.alloytools.alloy.core:generate', task ':org.alloytools.alloy.core:compileJava']
+Tasks that were excluded: []
+:org.alloytools.alloy.wrappers:compileJava (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.alloy.wrappers:compileJava NO-SOURCE
+Deleting stale output file: /Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.alloy.wrappers/target/classes
+Skipping task ':org.alloytools.alloy.wrappers:compileJava' as it has no source files and no previous output files.
+:org.alloytools.alloy.wrappers:compileJava (Thread[Execution worker for ':',5,main]) completed. Took 0.002 secs.
+:org.alloytools.alloy.wrappers:processResources (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.alloy.wrappers:processResources NO-SOURCE
+Skipping task ':org.alloytools.alloy.wrappers:processResources' as it has no source files and no previous output files.
+:org.alloytools.alloy.wrappers:processResources (Thread[Execution worker for ':',5,main]) completed. Took 0.0 secs.
+:org.alloytools.alloy.wrappers:classes (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.alloy.wrappers:classes UP-TO-DATE
+Skipping task ':org.alloytools.alloy.wrappers:classes' as it has no actions.
+:org.alloytools.alloy.wrappers:classes (Thread[Execution worker for ':',5,main]) completed. Took 0.0 secs.
+:org.alloytools.alloy.wrappers:jar (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.alloy.wrappers:jar UP-TO-DATE
+file or directory '/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy/org.alloytools.alloy.wrappers/target/classes', not found
+Caching disabled for task ':org.alloytools.alloy.wrappers:jar' because:
+  Build cache is disabled
+Skipping task ':org.alloytools.alloy.wrappers:jar' as it is up-to-date.
+:org.alloytools.alloy.wrappers:jar (Thread[Execution worker for ':',5,main]) completed. Took 0.003 secs.
+:org.alloytools.api:compileJava (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.api:compileJava UP-TO-DATE
+Caching disabled for task ':org.alloytools.api:compileJava' because:
+  Build cache is disabled
+Skipping task ':org.alloytools.api:compileJava' as it is up-to-date.
+:org.alloytools.api:compileJava (Thread[Execution worker for ':',5,main]) completed. Took 0.002 secs.
+:org.alloytools.api:processResources (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.api:processResources NO-SOURCE
+Skipping task ':org.alloytools.api:processResources' as it has no source files and no previous output files.
+:org.alloytools.api:processResources (Thread[Execution worker for ':',5,main]) completed. Took 0.001 secs.
+:org.alloytools.api:classes (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.api:classes UP-TO-DATE
+Skipping task ':org.alloytools.api:classes' as it has no actions.
+:org.alloytools.api:classes (Thread[Execution worker for ':',5,main]) completed. Took 0.0 secs.
+:org.alloytools.api:jar (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.api:jar UP-TO-DATE
+Caching disabled for task ':org.alloytools.api:jar' because:
+  Build cache is disabled
+Skipping task ':org.alloytools.api:jar' as it is up-to-date.
+:org.alloytools.api:jar (Thread[Execution worker for ':',5,main]) completed. Took 0.008 secs.
+:org.alloytools.pardinus.core:compileJava (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.pardinus.core:compileJava UP-TO-DATE
+Caching disabled for task ':org.alloytools.pardinus.core:compileJava' because:
+  Build cache is disabled
+Skipping task ':org.alloytools.pardinus.core:compileJava' as it is up-to-date.
+:org.alloytools.pardinus.core:compileJava (Thread[Execution worker for ':',5,main]) completed. Took 0.008 secs.
+:org.alloytools.pardinus.core:processResources (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.pardinus.core:processResources UP-TO-DATE
+Caching disabled for task ':org.alloytools.pardinus.core:processResources' because:
+  Build cache is disabled
+Skipping task ':org.alloytools.pardinus.core:processResources' as it is up-to-date.
+:org.alloytools.pardinus.core:processResources (Thread[Execution worker for ':',5,main]) completed. Took 0.003 secs.
+:org.alloytools.pardinus.core:classes (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.pardinus.core:classes UP-TO-DATE
+Skipping task ':org.alloytools.pardinus.core:classes' as it has no actions.
+:org.alloytools.pardinus.core:classes (Thread[Execution worker for ':',5,main]) completed. Took 0.0 secs.
+:org.alloytools.pardinus.core:jar (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.pardinus.core:jar UP-TO-DATE
+Caching disabled for task ':org.alloytools.pardinus.core:jar' because:
+  Build cache is disabled
+Skipping task ':org.alloytools.pardinus.core:jar' as it is up-to-date.
+:org.alloytools.pardinus.core:jar (Thread[Execution worker for ':',5,main]) completed. Took 0.014 secs.
+:org.alloytools.alloy.core:generate (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.alloy.core:generate UP-TO-DATE
+Caching disabled for task ':org.alloytools.alloy.core:generate' because:
+  Build cache is disabled
+Skipping task ':org.alloytools.alloy.core:generate' as it is up-to-date.
+:org.alloytools.alloy.core:generate (Thread[Execution worker for ':',5,main]) completed. Took 0.0 secs.
+:org.alloytools.alloy.core:compileJava (Thread[Execution worker for ':',5,main]) started.
+
+> Task :org.alloytools.alloy.core:compileJava FAILED
+Caching disabled for task ':org.alloytools.alloy.core:compileJava' because:
+  Build cache is disabled
+Task ':org.alloytools.alloy.core:compileJava' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':org.alloytools.alloy.core:compileJava'.
+:org.alloytools.alloy.core:compileJava (Thread[Execution worker for ':',5,main]) completed. Took 0.007 secs.
+8 actionable tasks: 1 executed, 7 up-to-date
+Watched directory hierarchies: [/Users/iftekharuddin/Documents/GitHub/org.alloytools.alloy]

@@ -42,6 +42,8 @@ public final class A4Options implements Serializable {
     public A4Options() {
     }
 
+    public boolean useMaxSat = false;
+
     public boolean    inferPartialInstance = true;
 
     /**

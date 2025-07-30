@@ -260,6 +260,14 @@ public class PreferencesDialog extends JFrame {
             Solver.setChoices(solvers, SATFactory.DEFAULT);
             log.log("Available solvers on " + System.getProperty("os.name") + ":" + System.getProperty("os.arch") + "\n");
             solvers.forEach(s -> log.log(s.toString() + "\n"));
+
+            if (solvers.stream().anyMatch(s -> s.toString().contains("SAT4JMax"))) {
+                log.logBold("MaxSat is enabled! The default MaxSat solver is SAT4JMax.\n");
+                log.log("When key word 'soft fact', 'maxsome' or 'minsome' is used, the solver must\n" +
+                        "be set to a MaxSat solver.\n");
+                log.logDivider();
+                log.flush();
+            }
         }
         initUI();
     }

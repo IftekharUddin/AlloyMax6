@@ -10,7 +10,11 @@
 	org.alloytools.api,\
 	slf4j.api,\
 	org.alloytools.pardinus.core,\
-	biz.aQute.bnd.annotation
+	biz.aQute.bnd.annotation  \
+	org.ow2.sat4j.core;version=2.3.4,\
+	org.ow2.sat4j.pb;version=2.3.4,\
+	org.ow2.sat4j.maxsat;version=2.3.4
+	
 
 -testpath: \
 	biz.aQute.wrapper.junit,\
